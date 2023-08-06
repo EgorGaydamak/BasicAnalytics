@@ -59,4 +59,9 @@ class ViewController: UIViewController {
             print("analytics?.getLastSession \(result)")
         })
     }
+    
+    @IBAction func onObjectiveCTestTap(_ sender: Any) {
+        let objCClass = ObjectiveCAnalyticsUsageClass()
+        objCClass.callSwiftMethodsFromAnalytics()
+    }
 }
