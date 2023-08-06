@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		740A6A912A800E58007DEA20 /* ObjCUsageExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 740A6A902A800E58007DEA20 /* ObjCUsageExample.m */; };
 		7427E7552A7D80AD00BAC5C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7427E7542A7D80AD00BAC5C4 /* AppDelegate.swift */; };
 		7427E7592A7D80AD00BAC5C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7427E7582A7D80AD00BAC5C4 /* ViewController.swift */; };
 		7427E75C2A7D80AD00BAC5C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7427E75A2A7D80AD00BAC5C4 /* Main.storyboard */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		740A6A902A800E58007DEA20 /* ObjCUsageExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCUsageExample.m; sourceTree = "<group>"; };
+		740A6A922A801B31007DEA20 /* BasicAnalyticsDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BasicAnalyticsDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		740A6A932A801B7F007DEA20 /* ObjCUsageExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCUsageExample.h; sourceTree = "<group>"; };
 		7427E7512A7D80AD00BAC5C4 /* BasicAnalyticsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicAnalyticsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7427E7542A7D80AD00BAC5C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7427E7582A7D80AD00BAC5C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +69,9 @@
 				7427E75D2A7D80B100BAC5C4 /* Assets.xcassets */,
 				7427E75F2A7D80B100BAC5C4 /* LaunchScreen.storyboard */,
 				7427E7622A7D80B100BAC5C4 /* Info.plist */,
+				740A6A902A800E58007DEA20 /* ObjCUsageExample.m */,
+				740A6A932A801B7F007DEA20 /* ObjCUsageExample.h */,
+				740A6A922A801B31007DEA20 /* BasicAnalyticsDemo-Bridging-Header.h */,
 			);
 			path = BasicAnalyticsDemo;
 			sourceTree = "<group>";
@@ -119,6 +126,7 @@
 				TargetAttributes = {
 					7427E7502A7D80AD00BAC5C4 = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -158,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				740A6A912A800E58007DEA20 /* ObjCUsageExample.m in Sources */,
 				7427E7592A7D80AD00BAC5C4 /* ViewController.swift in Sources */,
 				7427E7552A7D80AD00BAC5C4 /* AppDelegate.swift in Sources */,
 			);
@@ -304,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 793E95F4NE;
@@ -325,6 +335,8 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BasicAnalyticsDemo/BasicAnalyticsDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -335,6 +347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 793E95F4NE;
@@ -356,6 +369,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BasicAnalyticsDemo/BasicAnalyticsDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
