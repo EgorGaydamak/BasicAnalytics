@@ -4,8 +4,8 @@ BasicAnalytics is a lightweight analytics SDK for iOS applications, designed to 
 
 ## Features
 
-- Session management: Start, track, and end analytics sessions.
-- Event tracking: Record various types of events and their properties.
+- Session management: Start and and analytics sessions.
+- Event tracking: Record various types of events and their properties once session started.
 - Data storage: Store analytics sessions and events for analysis.
 - Customizable configuration: Configure analytics behavior based on your needs.
 - Extendable architecture: Easily integrate with custom storage solutions.
