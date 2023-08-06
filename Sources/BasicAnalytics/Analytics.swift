@@ -1,6 +1,7 @@
 import Foundation
 
-public enum AnalyticsError: Error {
+@objc
+public enum AnalyticsError: Int, Error {
     case noActiveSession
     case sessionAlreadyActive
     case sessionStartingError
@@ -9,6 +10,10 @@ public enum AnalyticsError: Error {
     case storageErasingError
 }
 
+///Main class of the SDK.
+///Ensure to initialize it on your app start and store a reference to it.
+///
+///I recommend to initialize it inside `func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool` function of your `AppDelegate.swift` file.
 public final class Analytics {
     private let storage: AnalyticsSessionStorageInterface
     
